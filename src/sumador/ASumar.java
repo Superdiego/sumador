@@ -13,6 +13,10 @@ public class ASumar {
         if (numero.length() == 1) {
             numero =numero + " = " + numero;
         }
+        else if (Integer.parseInt(numero)<0) {
+       	numero="";
+        }
+       
         return numero;
 	}
 
