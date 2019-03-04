@@ -20,4 +20,14 @@ class TestASumar {
         String resultado = sumi.mostrar();
         assertEquals("",resultado );
     }
+	
+	@Test
+	public void testTotal() {
+        ASumar sumi = new ASumar("1234");
+        String resultado = sumi.mostrar();
+        assertEquals("10",resultado );
+	}
+	
 }
+	
+	
