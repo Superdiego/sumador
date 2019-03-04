@@ -26,7 +26,6 @@ public class DCP_Funciona {
 		
 		ASumar sum = new ASumar(valor);
 		
-		int suma = 0;
         for (int i = 0; i < valor.length(); i++) {            	
         	String numerillo = valor.substring(i,i+1);
         	
@@ -34,15 +33,8 @@ public class DCP_Funciona {
         		System.out.print(numerillo + " + ");
         	else {
         		System.out.print(numerillo + " =  ");
-        	}
-        	
-       
-        }
-        	
-		System.out.print(sum.mostrar());
-		
-		
-		
+        	}       
+        }       	
+		System.out.print(sum.mostrar());		
 	}
-
 }
